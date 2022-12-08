@@ -4,6 +4,10 @@
   margin-left: auto;
 }
 
+body {
+  font-family: Inter, sans-serif;
+}
+
 a,
 button,
 .nav-list {
@@ -29,5 +33,66 @@ img {
 }
 
 .nav-list > li:hover {
+  color: hsl(5deg, 85%, 63%);
+}
+
+.new-section {
+  color: #fff;
+  background-color: hsl(240deg, 100%, 5%);
+}
+
+.small {
+  font-size: 0.9rem;
+}
+
+.medium {
+  font-size: 1.1rem;
+}
+
+.large {
+  font-size: 1.9rem;
+}
+
+.x-large {
+  font-size: 4rem;
+}
+
+.normal {
+  font-weight: 400;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.extra-bold {
+  font-weight: 800;
+}
+
+.white {
+  color: hsl(36deg, 100%, 99%);
+}
+
+.grayish-blue {
+  color: hsl(233deg, 8%, 79%);
+}
+
+.dark-grayish-blue {
+  color: hsl(236deg, 13%, 42%);
+}
+
+.very-dark-blue {
+  color: hsl(240deg, 100%, 5%);
+}
+
+.orange {
+  color: hsl(35deg, 77%, 62%);
+}
+
+.red {
   color: hsl(5deg, 85%, 63%);
 }
