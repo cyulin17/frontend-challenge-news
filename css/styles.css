@@ -6,6 +6,7 @@
 
 body {
   font-family: Inter, sans-serif;
+  background-color: hsl(36deg, 100%, 99%);
 }
 
 a,
@@ -29,7 +30,7 @@ img {
 }
 
 .nav-list > li {
-  margin: 0 12px;
+  margin: 0 18px;
 }
 
 .nav-list > li:hover {
@@ -37,7 +38,7 @@ img {
 }
 
 .new-section {
-  color: #fff;
+  color: hsl(36deg, 100%, 99%);
   background-color: hsl(240deg, 100%, 5%);
 }
 
@@ -95,4 +96,19 @@ img {
 
 .red {
   color: hsl(5deg, 85%, 63%);
+}
+
+.button {
+  width: 160px;
+  height: 42px;
+  border: none;
+  background-color: hsl(5deg, 85%, 63%);
+  color: hsl(36deg, 100%, 99%);
+  letter-spacing: 3px;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: hsl(240deg, 100%, 5%);
 }
